@@ -1,0 +1,13 @@
+
+Running 8 tests using 6 workers
+
+  ✓  1 [setup] › tests/auth.setup.ts:4:6 › log in once (2.4s)
+  ✓  7 [chromium] › tests/login.spec.ts:3:5 › TC-02 valid credentials open the account page (2.3s)
+  ✓  6 [chromium] › tests/login.spec.ts:10:5 › TC-02 a wrong password shows an error (2.4s)
+  ✓  4 [chromium] › tests/register.spec.ts:4:5 › TC-01 a new customer can register and then log in (2.5s)
+  ✓  8 [chromium] › tests/reset-password.spec.ts:21:5 › TC-05 an unknown email shows an error (872ms)
+  ✓  3 [chromium] › tests/reset-password.spec.ts:5:5 › TC-05 a known email gets a confirmation and the old password stops working (3.3s)
+  ✓  2 [chromium] › tests/compare-products.spec.ts:3:5 › TC-04 the comparison shows both products at their own prices (3.9s)
+  ✓  5 [chromium] › tests/buy-product.spec.ts:6:5 › TC-03 buy two units of a product (5.7s)
+
+  8 passed (9.0s)
